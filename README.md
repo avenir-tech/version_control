@@ -4,4 +4,4 @@ Here you'll find all the reference files for the Version Control Playlist. Enjoy
 
 ## Changelog
 
-v0.1 Create the README file
+- v0.1 Create the README file
