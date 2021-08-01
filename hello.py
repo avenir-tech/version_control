@@ -1,10 +1,9 @@
 print('Hello World!')
 
 def square_and_sum(lst):
-    sum = 0
-    for i in lst:
-        sum += i * i
-    return sum
+    import numpy as np
+    lst = np.array(lst)
+    return np.square(lst).sum()
 
 lst = [1, 2, 3]
 
