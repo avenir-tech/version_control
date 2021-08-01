@@ -1,10 +1,7 @@
 print('Hello World!')
 
 def square_and_sum(lst):
-    sum = 0
-    for i in lst:
-        sum += i * i
-    return sum
+    return sum([i * i for i in lst])
 
 lst = [1, 2, 3]
 
